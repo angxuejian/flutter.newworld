@@ -1,6 +1,6 @@
 # flutter_newworld
 
-A new Flutter project.
+A new Flutter project. [Flutter Install](./flutter.install.md)
 
 ## Getting Started
 
