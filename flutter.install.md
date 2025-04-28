@@ -25,13 +25,11 @@ C:\Users\User Name\flutter
 
 ## 配置代理
 
-### Fullter 代理
+### Flutter 代理
 
 在指定目录中创建```run.bat```文件，双击运行脚本即可，该目录下都会共享当前代理配置，由于```set```是临时设置，**关闭当前cmd窗口后就会清空配置**。如想配置长久代理，可以在**环境变量**中增加```http_proxy```、```https_proxy```
 
 ```bat
-rem run.bat
-
 @echo off
 set http_proxy=http://127.0.0.1:7890
 set https_proxy=http://127.0.0.1:7890
