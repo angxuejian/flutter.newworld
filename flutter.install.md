@@ -97,6 +97,21 @@ systemProp.http.nonProxyHosts=localhost|127.0.0.1|::1
 这时再次运行```flutter run```命令，即可在真机运行。
 
 ## 配置镜像
+### Flutter 国内镜像
+
+在本地电脑的环境变量中增加```PUB_HOSTED_URL```和```FLUTTER_STORAGE_BASE_URL```
+```bin
+变量名：PUB_HOSTED_URL
+变量值：https://mirrors.tuna.tsinghua.edu.cn/dart-pub
+```
+```bin
+变量名：FLUTTER_STORAGE_BASE_URL
+变量值：https://mirrors.tuna.tsinghua.edu.cn/flutter
+```
+这里使用的是清华源的镜像，可使用其他[国内可信任镜像](https://docs.flutter.cn/community/china/#known-trusted-community-run-mirror-sites)
+
+### Android SDK国内镜像
+
 
 ## 创建Flutter Project
 
@@ -114,3 +129,7 @@ cd your_project_name
 
 flutter run
 ```
+
+3、[Flutter 命令行文档](https://docs.flutter.cn/reference/flutter-cli)
+
+
